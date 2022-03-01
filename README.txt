@@ -12,7 +12,10 @@ Here is a short description of the plugin.  This should be no more than 150 char
 
 == Description ==
 
-This is a WordPress plugin that allows users to update button text and links. This is useful for a non-technical editor. This plugin was developed using the popular WordPress Plugin Boilerplate. Feel free to send me a message if you are interested in my plugin and want to use it.
+This is a WordPress plugin that allows users to update button text and links. 
+This is useful for a non-technical editor. 
+This plugin was developed using the popular WordPress Plugin Boilerplate. 
+Feel free to send me a message if you are interested in my plugin and want to use it.
 
 A few notes about the sections above:
 
