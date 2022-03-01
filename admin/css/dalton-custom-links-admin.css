@@ -1,0 +1,18 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ blockquote.dalton_custom_links_bl {
+    text-align: center;
+    width: 50%;
+    background: rgba(0,113,136,1);
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    box-shadow: 0 -5px 3px -3px #adadad, 0 5px 3px -3px #adadad;
+}
+
+.dalton_custom_links_input {
+    width:55%;
+}
