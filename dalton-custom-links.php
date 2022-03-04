@@ -17,8 +17,8 @@
  * Plugin URI:        https://kyoseicreative.com/
  * Description:       Use this plugin to update course level event links.
  * Version:           1.0.0
- * Author:            MJ Suarez
- * Author URI:        https://github.com/msmjsuarez
+ * Author:            Kyosei (MJ Suarez)
+ * Author URI:        http://mjlayasan.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       dalton-custom-links

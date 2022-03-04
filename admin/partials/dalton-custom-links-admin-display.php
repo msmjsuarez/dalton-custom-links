@@ -23,18 +23,15 @@
 
 if (current_user_can('edit_users')) {
 
-    $page = $_GET['page']; // to get the unique identifier of the page using page url
-    $page_id = $page . '_nonce';
-    $page_id_nonce = wp_create_nonce('dalton_custom_links_form_nonce'); //generate a custom nonce value to add form submit security
 
-    //generate the page title based on the url
-    $title = substr((ucwords(str_replace('-', ' ', $page))), 20);
 
 ?>
 
     <div id="wrap">
 
         <h1><?php echo $title; ?> button</h1>
+
+        <?php echo 'Page: <a href="' . $page_url . '" target="_blank"> ' . $page_url . ' </a>'; ?>
 
         <p>Copy the code below and paste to the Page <strong>excerpt</strong>.</p>
         <blockquote class="dalton_custom_links_bl">

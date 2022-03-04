@@ -174,6 +174,7 @@ class Dalton_Custom_Links
 
 		$this->loader->add_action('init', $plugin_admin, 'dalton_custom_links_session'); // enable session to get page url after form submit
 		$this->loader->add_filter("the_excerpt", $plugin_admin, "local_fix_quotes"); // to accept shortcode symbol [] in excerpt
+
 	}
 
 	/**

@@ -185,6 +185,28 @@ class Dalton_Custom_Links_Admin
 
 		$_SESSION['page'] = $this->page;
 
+
+		$page = $_GET['page']; // to get the unique identifier of the page using page url
+		$page_id = $page . '_nonce';
+		$page_id_nonce = wp_create_nonce('dalton_custom_links_form_nonce'); //generate a custom nonce value to add form submit security
+
+		//generate the page title based on the url
+		$title = substr((ucwords(str_replace('-', ' ', $page))), 20);
+
+		if (($page == 'dalton-custom-links-home-level1') || ($page == 'dalton-custom-links-home-level2')) {
+			$page_url = get_site_url();
+		} else if (($page == 'dalton-custom-links-course-page-level2')) {
+			$page_url = get_site_url() . '/courses/';
+		} else if (($page == 'dalton-custom-links-course-level1')) {
+			$page_url = get_site_url() . '/course/bioenergy-level-1/';
+		} else if (($page == 'dalton-custom-links-course-level2')) {
+			$page_url = get_site_url() . '/level-2-bio-practitioner-training/';
+		} else if (($page == 'dalton-custom-links-course-level3')) {
+			$page_url = get_site_url() . '/level-3-bio-advanced-training/';
+		} else if (($page == 'dalton-custom-links-course-level4')) {
+			$page_url = get_site_url() . '/level-4-bio-intro-trainer/';
+		}
+
 		include 'partials/dalton-custom-links-admin-display.php';
 	}
 
