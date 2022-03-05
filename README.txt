@@ -1,6 +1,5 @@
 == Dalton Custom Links Plugin ==
 Contributors: MJ Suarez Layasan
-Donate link: https://github.com/msmjsuarez
 Tags: custom links
 Requires at least: 3.0.1
 Tested up to: 5.9.1
