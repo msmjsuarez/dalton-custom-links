@@ -23,8 +23,6 @@
 
 if (current_user_can('edit_users')) {
 
-
-
 ?>
 
     <div id="wrap">
